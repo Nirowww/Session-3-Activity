@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(34, 34, 34);
+}
+h1{
+    text-align: center;
+}
+.header{
+    text-align: right;
+    background-color: #163d11;
+    color: aliceblue;
+
+}
+.navbar a{
+    color: #fff;
+    justify-content: space-between;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+    margin-right: 20px;
+}
+.background img{
+    width:1875px;
+    height: 915px;
+    object-fit: cover;
+    filter: blur(2px);
+}
+.login-box{
+    background: white;
+    border-radius: 15px;
+    padding: 100px;
+    width: 600px;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -30%);
+}
+.login-box p{
+    text-align: left;
+    font-size: 12px;
+    
+}
+.login-box input{
+    width: 100%;
+    background: transparent;
+    border: 1p solid #999;
+    padding: 10px 13px;
+    margin: 5px;
+    border-radius: 5px;
+}
+
+.login-box button{
+    width: 100%;
+    margin: 5px;
+    padding: 8px;
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 10px;
+    cursor: pointer;
+    }
+.login-box form button{
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+    background:transparent;
+    background-color: #406e3a;
+    color: white;
+    border: 1px solid;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+}
+.logo {
+    margin-bottom: 5px;
+}
+hr{
+    height: 1px;
+    color: #000000;
+    width: 102%;
+    margin: 10px 0 ;
+}
